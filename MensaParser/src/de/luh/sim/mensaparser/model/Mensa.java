@@ -87,6 +87,12 @@ public enum Mensa implements Comparable<Mensa>{
 		return HAUPTMENSA;
 	}
 	
+	/**
+	 * Gibt den Namen der Mensa zurück.
+	 */
+	public String toString(){
+		return getName();
+	}
 
 	
 	

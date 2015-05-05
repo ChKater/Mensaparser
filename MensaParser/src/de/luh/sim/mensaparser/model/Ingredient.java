@@ -203,7 +203,7 @@ public enum Ingredient {
 	 * @return Name des Inhalststoffs
 	 */
 	public String toString(){
-		return name;
+		return getName();
 	}
 	
 

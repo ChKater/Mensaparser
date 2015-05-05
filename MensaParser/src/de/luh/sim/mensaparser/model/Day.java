@@ -91,5 +91,14 @@ public enum Day {
 		}
 		return TODAY;
 	}
+	
+
+	/**
+	 * Gibt die deutsche Bezeichnug zurück.
+	 * @return Deutsche Bezeichnung.
+	 */
+	public String toString(){
+		return getGerman();
+	}
 
 }
